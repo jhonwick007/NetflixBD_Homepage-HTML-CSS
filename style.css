@@ -1,0 +1,196 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    background: url(https://i.imgur.com/Z8KKv8L.jpg);
+    box-sizing: border-box;
+    font-family:  Helvetica;
+    margin-bottom: 250px;
+  }
+
+  .container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+
+.signin{
+    position: absolute;
+    top: 6%;
+    left: 94%;
+    background: #fc0101;
+    color: #fff;
+    width: 90px;
+    height: 50px;
+    font-size: 18px;
+    opacity: 0.9;
+    border-radius: 2px;
+    border: 0;
+}
+
+.signin:hover{
+    opacity: 1;
+}
+
+.subcontainer{
+  margin-top: 80px;
+}
+
+.see{
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+  font-family:  Helvetica;
+}
+
+.watch{
+  font-size:40px;
+  font-weight: 300;
+  color: #fff;
+  font-family:  Helvetica;
+}
+  
+
+.form-inline{
+  font-family:  Helvetica;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 17px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+
+  width: 130px;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.form-inline button {
+  border: 0;
+  background: #f80511;
+  padding: 20px 80px;
+  font-size: 40px;
+  color: #fff;
+  font-family:  Helvetica;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  opacity: 0.9;
+}
+
+.form-inline button:hover {
+  opacity: 1;
+  background-color: rgb(250, 4, 4);
+}
+
+  
+  .form-inline input:focus {
+  width: 30%;
+}
+
+
+ nav a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: Helvetica;
+  position: absolute;
+  left: 52%;
+  top:90%;
+  margin-top: -20px;
+  margin-left: -150px;
+  text-align: left;
+}
+
+nav ul {
+    background: #34495e;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav li {
+  color: #fff;
+  background: #34495e;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+  
+nav li a {
+  color: #fff;
+}
+
+nav li:hover {
+    background: red;
+    cursor: pointer;
+}
+
+nav ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+
+.bottom center{
+  padding: 7px;
+  font-family: Helvetica;
+  font-size: 0.9375rem;
+  background: #151515;
+  background-color: black;
+  text-align: center;
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
